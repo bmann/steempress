@@ -7,7 +7,7 @@ $app['locale'] = 'en';
 $app['steemd'] = 'https://steem.steemstats.com';
 
 // theme configuration
-$app['theme'] = 'sosimple';
+$app['theme'] = 'foundation6';
 
 // what type of posts should we load?
 $app['steem'] = [
