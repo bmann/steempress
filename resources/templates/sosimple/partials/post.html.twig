@@ -1,0 +1,4 @@
+<article>
+    <a href="/{{ post.metadata.tags[0] }}/@{{ post.author }}/{{ post.permlink }}">
+      {{ post.title }} <span class="entry-date"><time datetime="{{ '%datetime%' }}">{{ "%datetime%" | trans({'%datetime%' : post.ts | date("F jS")})}}</time></span><span class="excerpt">{% if preview is defined %}{{ post.html_preview | raw }}{% else %}{{ post.html | raw }}{% endif %}</span></a>
+</article>

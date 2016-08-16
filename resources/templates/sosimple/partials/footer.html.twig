@@ -1,0 +1,17 @@
+{% if site.google.ad-client and site.google.ad-slot %}{% include ad-footer.html %}{% endif %}
+
+<span>&copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://steempress.io" rel="nofollow">Steempress</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	{% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}" title="{{ site.name}} on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>{% endif %}
+	{% if site.facebook %}<a href="https://facebook.com/{{ site.facebook }}" title="{{ site.name}} on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>{% endif %}
+	{% if site.google.plus %}<a href="https://plus.google.com/+{{ site.google.plus }}" title="{{ site.name}} on Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>{% endif %}
+	{% if site.linkedin %}<a href="https://linkedin.com/in/{{ site.linkedin }}" title="{{ site.name}} on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>{% endif %}
+	{% if site.stackexchange %}<a href="{{ site.stackexchange }}" title="{{ site.name}} on StackExchange" target="_blank"><i class="fa fa-stack-exchange fa-2x"></i></a>{% endif %}
+	{% if site.instagram %}<a href="https://instagram.com/{{ site.instagram }}" title="{{ site.name}} on Instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>{% endif %}
+	{% if site.flickr %}<a href="https://www.flickr.com/photos/{{ site.flickr }}" title="{{ site.name}} on Flickr" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>{% endif %}
+	{% if site.github %}<a href="https://github.com/{{ site.github }}" title="{{ site.name}} on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}
+	{% if site.tumblr %}<a href="http://{{ site.tumblr }}.tumblr.com" title="{{ site.name}} on Tumblr" target="_blank"><i class="fa fa-tumblr-square fa-2x"></i></a>{% endif %}
+  {% if site.pinterest %}<a href="https://www.pinterest.com/{{ site.pinterest }}/" title="{{ site.name}} on Pinterest" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a>{% endif %}
+	{% if site.weibo %}<a href="https://www.weibo.com/u/{{ site.weibo }}/" title="{{ site.name}} on Weibo" target="_blank"><i class="fa fa-weibo fa-2x"></i></a>{% endif %}
+  <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->

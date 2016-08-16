@@ -1,0 +1,11 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+<ul class="post-list">
+{% for post in posts %}
+  <li>{% include 'partials/post.html.twig' with { post: post, preview: true } %}</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
