@@ -7,7 +7,7 @@ $app['locale'] = 'en';
 $app['steemd'] = 'https://steem.steemstats.com';
 
 // theme configuration
-$app['theme'] = 'foundation6';
+$app['theme'] = 'mediator';
 
 // what type of posts should we load?
 $app['steem'] = [
@@ -19,6 +19,8 @@ $app['steem'] = [
   ],
 ];
 
-$app['blog'] = [
-  'title' => 'Boris Mann on Steem'
+$app['site'] = [
+  'title' => 'Boris Mann on Steem',
+  'author' => 'Boris Mann',
+  'url' => 'http://bmann-steempress.herokuapp.com'
 ];

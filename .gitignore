@@ -1,3 +1,4 @@
 vendor/
 web/assets/
 var/*
+.DS_Store
