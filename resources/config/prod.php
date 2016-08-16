@@ -7,7 +7,7 @@ $app['locale'] = 'en';
 $app['steemd'] = 'https://steem.steemstats.com';
 
 // theme configuration
-$app['theme'] = 'foundation6';
+$app['theme'] = 'sosimple';
 
 // what type of posts should we load?
 $app['steem'] = [
@@ -40,7 +40,7 @@ $app['site'] = [
   'steemit' => 'bmann', #username
   'twitter' => 'bmann', #username
   'facebook' => 'bmann', #username
-  'github' => 'bmann', #username
+  'github' => 'bmann' #username
   # stackexchange: #http://stackoverflow.com/users/123456/username
   # linkedin: #username
   # instagram: #username
