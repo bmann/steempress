@@ -74,7 +74,7 @@ class Application extends SilexApplication
                 return sprintf($base.'/'.$asset, ltrim($asset, '/'));
             }));
             $twig->addGlobal('steem', $app['steem']);
-            $twig->addGlobal('blog', $app['blog']);
+            $twig->addGlobal('site', $app['site']);
             return $twig;
         }));
 
