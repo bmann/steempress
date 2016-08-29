@@ -14,7 +14,7 @@ $app['steem'] = [
   // an array of users allowed to appear
   'accounts' => ['bmann'],
   // an array of tags to ensure exist
-  'tags' => ['steempress'],
+  'tags' => [],
 ];
 
 $app['blog'] = [
