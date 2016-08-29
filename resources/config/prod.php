@@ -12,7 +12,7 @@ $app['theme'] = 'foundation6-default';
 // what type of posts should we load?
 $app['steem'] = [
   // an array of users allowed to appear
-  'accounts' => ['jesta'],
+  'accounts' => ['bmann'],
   // an array of tags to ensure exist
   'tags' => [
     'steemstats',
@@ -20,5 +20,5 @@ $app['steem'] = [
 ];
 
 $app['blog'] = [
-  'title' => 'SteemPress powered Blog'
+  'title' => 'bmann steempress [master]'
 ];
